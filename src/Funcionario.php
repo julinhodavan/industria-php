@@ -12,4 +12,9 @@ class Funcionario
         $this->matricula = $matricula;
         $this->cargo = $cargo;
     }
+
+    public function exibirDados()
+    {
+        return $this->nome . " - " . $this->cargo;
+    }
 }
